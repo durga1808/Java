@@ -32,16 +32,44 @@ public class App
  
         Scanner ex =new Scanner(System.in);
         System.out.println("Enter the age of employee : ");
-        try{
+        
+        try
+
+        /*The try keyword creates a try...catch statement.
+
+            The try statement allows you to define a block of c
+            ode to be tested for errors while it is being executed.
+            
+            The catch statement allows you to define a block of code 
+            to be executed, if an error occurs in the try block.*/
+
+        {
         int age= ex.nextInt();
         System.out.println("The age is : "+age);
         Javacheckage method3 = new Javacheckage();
 method3.CheckAge(age);
         }
-        finally{
+        finally
+        /*The finally keyword is used to execute code (used with exceptions - try..catch statements) 
+        no matter if there is an exception or not. */
+        
+        {
             ex.close();
         }
 
+
+        Javaencapaccount account = new Javaencapaccount();
+        account.setAcc_no(7508973289L);
        
+        Javaencapaccount name =new Javaencapaccount();
+        name.setName("Arun");
+        
+        Javaencapaccount email = new Javaencapaccount();
+        email.setEmail("arunmuthu97@gmail.com");
+       
+   Javaencapaccount salary = new Javaencapaccount();
+   salary.setSalary(20000f);
+   
+   System.out.println("Employee Name : " + name.getName()+ " Email ID : " + email.getEmail()+" Account Number : " + account.getAcc_no()+ " Salary : " + salary.getSalary() );
     }
 }
