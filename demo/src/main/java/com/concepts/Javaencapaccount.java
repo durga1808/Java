@@ -5,7 +5,8 @@ public class Javaencapaccount {
     private String name,email;
     private float salary;
 
-    public long getAcc_no(){
+    public long getAcc_no()
+    {
         return acc_no;
     }
     public void setAcc_no(long newacc_no)

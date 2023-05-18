@@ -72,4 +72,7 @@ method3.CheckAge(age);
    
    System.out.println("Employee Name : " + name.getName()+ " Email ID : " + email.getEmail()+" Account Number : " + account.getAcc_no()+ " Salary : " + salary.getSalary() );
     }
+    
 }
+
+    
